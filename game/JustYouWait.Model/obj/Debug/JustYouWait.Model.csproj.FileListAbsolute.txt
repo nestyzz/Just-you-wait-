@@ -1,0 +1,12 @@
+C:\Users\DNS\source\repos\Just you wait\JustYouWait.Model\bin\Debug\JustYouWait.Model.dll
+C:\Users\DNS\source\repos\Just you wait\JustYouWait.Model\bin\Debug\JustYouWait.Model.pdb
+C:\Users\DNS\source\repos\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.csproj.AssemblyReference.cache
+C:\Users\DNS\source\repos\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.csproj.CoreCompileInputs.cache
+C:\Users\DNS\source\repos\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.dll
+C:\Users\DNS\source\repos\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.pdb
+C:\Users\DNS\Desktop\Just you wait\JustYouWait.Model\bin\Debug\JustYouWait.Model.dll
+C:\Users\DNS\Desktop\Just you wait\JustYouWait.Model\bin\Debug\JustYouWait.Model.pdb
+C:\Users\DNS\Desktop\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.csproj.AssemblyReference.cache
+C:\Users\DNS\Desktop\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.csproj.CoreCompileInputs.cache
+C:\Users\DNS\Desktop\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.dll
+C:\Users\DNS\Desktop\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.pdb
