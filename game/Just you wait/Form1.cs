@@ -24,6 +24,7 @@ namespace Just_you_wait
         public Form1()
         {
             InitializeComponent();
+
             Init();
         }
 
