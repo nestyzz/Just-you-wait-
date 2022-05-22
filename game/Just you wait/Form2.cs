@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Just_you_wait
 {
-    public partial class Form2 : Form
+    public partial class StartPage : Form
     {
-        public Form2()
+        public StartPage()
         {
             InitializeComponent();
         }
@@ -36,6 +36,14 @@ namespace Just_you_wait
                 Form1 createC = new Form1();
                 this.Hide();
                 createC.Show();
+            }
+        }
+
+        void Start_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyValue == (char) Keys.Enter)
+            {
+                button1_Click(Start, null);
             }
         }
     }

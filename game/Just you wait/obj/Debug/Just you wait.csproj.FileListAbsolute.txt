@@ -31,10 +31,10 @@ C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\bin\Debug\JustYouWait.
 C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\bin\Debug\JustYouWait.Model.pdb
 C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\obj\Debug\Just you wait.csproj.AssemblyReference.cache
 C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\obj\Debug\Just_you_wait.Form1.resources
-C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\obj\Debug\Just_you_wait.Form2.resources
 C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\obj\Debug\Just_you_wait.Properties.Resources.resources
 C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\obj\Debug\Just you wait.csproj.GenerateResource.cache
 C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\obj\Debug\Just you wait.csproj.CoreCompileInputs.cache
 C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\obj\Debug\Just you wait.csproj.CopyComplete
 C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\obj\Debug\Just you wait.exe
 C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\obj\Debug\Just you wait.pdb
+C:\Users\DNS\Desktop\Just you wait Git\game\Just you wait\obj\Debug\Just_you_wait.StartPage.resources

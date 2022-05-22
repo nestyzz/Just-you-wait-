@@ -1,7 +1,7 @@
 ﻿
 namespace Just_you_wait
 {
-    partial class Form2
+    partial class StartPage
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Just_you_wait
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartPage));
             this.Start = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -39,15 +39,16 @@ namespace Just_you_wait
             this.Start.BackColor = System.Drawing.SystemColors.Info;
             this.Start.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Start.Location = new System.Drawing.Point(187, 102);
-            this.Start.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Start.Margin = new System.Windows.Forms.Padding(6);
             this.Start.Name = "Start";
             this.Start.Size = new System.Drawing.Size(375, 247);
             this.Start.TabIndex = 0;
             this.Start.Text = "Старт";
             this.Start.UseVisualStyleBackColor = false;
             this.Start.Click += new System.EventHandler(this.button1_Click);
+            this.Start.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Start_KeyDown);
             // 
-            // Form2
+            // StartPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -55,8 +56,8 @@ namespace Just_you_wait
             this.ClientSize = new System.Drawing.Size(744, 454);
             this.Controls.Add(this.Start);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.Name = "Form2";
+            this.Margin = new System.Windows.Forms.Padding(6);
+            this.Name = "StartPage";
             this.Text = "Form2";
             this.ResumeLayout(false);
 
