@@ -20,7 +20,10 @@ namespace Just_you_wait
         private int wolfRightLocation;
         private int wolfLeftLocation; //расположение волка
         private int randomNumber; //хранение рандомного числа
-        
+        Wolf leftWolf;
+        Wolf rightWolf;
+        Egg eg;
+
         public Form1()
         {
             InitializeComponent();
@@ -35,44 +38,47 @@ namespace Just_you_wait
 
         void Init()
         {
-            randomNumber = rnd.Next(0, 4); // Запускаю генератор
+            leftWolf = new Wolf(150, 102);
+            rightWolf = new Wolf(284, 102);
+            eg = new Egg(-100, -100);
 
-            speedY = 4;
+            randomNumber = rnd.Next(0, 4); // Запускаю генератор
+            speedY = eg.ySpeed;
 
             switch (randomNumber)
             {
 
                 case 0: // влево-вверх
 
-                    egg.Left = 89;
+                    egg.Left = eg.leftTopDownXPos;
 
-                    egg.Top = 55;
+                    egg.Top = eg.leftTopYPos;
 
-                    speedX = 9;
+                    speedX = eg.xLeftSpeed;
                     break;
 
                 case 1: // влево-вниз
 
-                    egg.Left = 89;
-                    egg.Top = 144;
+                    egg.Left = eg.leftTopDownXPos;
+                    egg.Top = eg.leftDownYPos;
 
-                    speedX = 9;
+                    speedX = eg.xLeftSpeed;
                     break;
 
                 case 2: // вправо-вверх
 
-                    egg.Left = 457;
-                    egg.Top = 15;
+                    egg.Left = eg.rightTopDownXPos;
+                    egg.Top = eg.rightTopYPos;
 
-                    speedX = -9;
+                    speedX = eg.xRightSpeed;
                     break;
 
                 case 3: //вправо-вниз
 
-                    egg.Left = 457;
-                    egg.Top = 70;
+                    egg.Left = eg.rightTopDownXPos;
+                    egg.Top = eg.rightDownYPos;
 
-                    speedX = -9;
+                    speedX = eg.xRightSpeed;
                     break;
             }
         }
@@ -82,7 +88,6 @@ namespace Just_you_wait
             int count = Convert.ToInt32(counter.Text) + 1; // прибавила счётчик
 
             counter.Text = Convert.ToString(count);
-
             Init();
         }
 
@@ -101,7 +106,7 @@ namespace Just_you_wait
 
             // Если ядро на центральной полосе, то оно должно падать вниз
 
-            if (egg.Left > 160 &egg.Left < 280)
+            if (egg.Left > eg.leftBorder & egg.Left < eg.rightBorder)
             {
 
                 if (randomNumber == (wolfRightLocation - 1) || randomNumber==(wolfLeftLocation-1))
@@ -112,21 +117,21 @@ namespace Just_you_wait
                 {
                     if (speedX > 0)
                     {
-                        speedX = 2;
+                        speedX = eg.ySpeed-2;
                     }
 
                     else
                     {
-                        speedX = -2;
+                        speedX = eg.ySpeed - 6;
                     }
 
-                    speedY = 8;
+                    speedY = eg.ySpeed*2;
                 }
             }
 
             // Если упало ядро
 
-            if (egg.Top > 400)
+            if (egg.Top > eg.yBorder)
             {
 
                 if (Convert.ToInt32(counter.Text) > 0) // работа со счётчиком
@@ -144,26 +149,22 @@ namespace Just_you_wait
 
                 case Keys.A:  // влево--вверх
 
-                    wolfLeft.Top = 20; wolfLeft.Left = 80;
-
+                    wolfLeft.Top = leftWolf.topLeftRightYPos; wolfLeft.Left = leftWolf.leftTopDownXPos;
                     wolfLeftLocation = 1; break;
 
                 case Keys.Z:  // влево-вниз
 
-                    wolfLeft.Top = 70; wolfLeft.Left = 80;
-
+                    wolfLeft.Top = leftWolf.downLeftRightPos; wolfLeft.Left = leftWolf.leftTopDownXPos;
                     wolfLeftLocation = 2; break;
 
                 case Keys.M:   // вправо-вниз
 
-                    wolfRight.Top = 70; wolfRight.Left = 229;
-
+                    wolfRight.Top = rightWolf.downLeftRightPos; wolfRight.Left = rightWolf.rightTopDownPos;
                     wolfRightLocation = 4; break;
 
                 case Keys.K:   //вправо-вверх
 
-                    wolfRight.Top = 20; wolfRight.Left = 229;
-
+                    wolfRight.Top = rightWolf.topLeftRightYPos; wolfRight.Left = rightWolf.rightTopDownPos;
                     wolfRightLocation = 3; break;
             }
         }

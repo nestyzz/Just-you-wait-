@@ -10,3 +10,9 @@ C:\Users\DNS\Desktop\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model
 C:\Users\DNS\Desktop\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.csproj.CoreCompileInputs.cache
 C:\Users\DNS\Desktop\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.dll
 C:\Users\DNS\Desktop\Just you wait\JustYouWait.Model\obj\Debug\JustYouWait.Model.pdb
+C:\Users\DNS\Desktop\Just you wait Git\game\JustYouWait.Model\bin\Debug\JustYouWait.Model.dll
+C:\Users\DNS\Desktop\Just you wait Git\game\JustYouWait.Model\bin\Debug\JustYouWait.Model.pdb
+C:\Users\DNS\Desktop\Just you wait Git\game\JustYouWait.Model\obj\Debug\JustYouWait.Model.csproj.AssemblyReference.cache
+C:\Users\DNS\Desktop\Just you wait Git\game\JustYouWait.Model\obj\Debug\JustYouWait.Model.csproj.CoreCompileInputs.cache
+C:\Users\DNS\Desktop\Just you wait Git\game\JustYouWait.Model\obj\Debug\JustYouWait.Model.dll
+C:\Users\DNS\Desktop\Just you wait Git\game\JustYouWait.Model\obj\Debug\JustYouWait.Model.pdb
